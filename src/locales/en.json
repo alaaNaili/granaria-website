@@ -1,0 +1,121 @@
+{
+  "header": {
+    "nav": {
+      "features": "Features",
+      "solutions": "Solutions",
+      "platform": "Platform",
+      "pricing": "Pricing"
+    },
+    "signIn": "Sign In",
+    "requestDemo": "Request Demo",
+    "logoAlt": "Granaria logo"
+  },
+  "hero": {
+    "badge": "Built for Agricultural Enterprises",
+    "title": "The Complete Platform for Agricultural Supply Chain Management",
+    "subtitle": "Centralize control, ensure full traceability, and maximize efficiency — from farm to buyer. One platform to manage warehouses, products, and sales across your entire operation.",
+    "requestDemo": "Request Demo",
+    "seeHowItWorks": "See How It Works",
+    "heroImageAlt": "Modern agricultural warehouse"
+  },
+  "problem": {
+    "title": "Agricultural supply chains are complex.",
+    "titleHighlight": "Granaria makes them simple.",
+    "challenge": "The Challenge",
+    "granariaWay": "The Granaria Way",
+    "problems": [
+      "Fragmented operations across multiple tools",
+      "Lack of visibility into inventory & logistics",
+      "Manual, error-prone processes",
+      "No end-to-end traceability"
+    ],
+    "solutions": [
+      "Unified platform for all operations",
+      "Real-time visibility across the supply chain",
+      "Automated workflows and smart alerts",
+      "Full traceability from origin to delivery"
+    ]
+  },
+  "features": {
+    "eyebrow": "Core Platform",
+    "title": "Everything you need to manage your supply chain",
+    "subtitle": "From warehouse operations to buyer transactions — all in one platform.",
+    "items": [
+      {
+        "title": "Warehouse & Stock Management",
+        "description": "Track inventory across multiple warehouses with real-time stock levels, FIFO management, and automated alerts."
+      },
+      {
+        "title": "Product Traceability",
+        "description": "Full lot-level traceability from origin to delivery with QR codes and digital documentation."
+      },
+      {
+        "title": "Integrated Marketplace",
+        "description": "Connect buyers and sellers on a unified platform with transparent pricing and seamless transactions."
+      },
+      {
+        "title": "Automated Workflows & AI",
+        "description": "Reduce manual work with intelligent automation for ordering, quality checks, and logistics."
+      },
+      {
+        "title": "Real-time Analytics",
+        "description": "Actionable dashboards for inventory, sales, and supply chain performance with predictive insights."
+      },
+      {
+        "title": "Secure Payments",
+        "description": "Built-in payment processing with escrow, multi-currency support, and complete financial audit trails."
+      }
+    ]
+  },
+  "audience": {
+    "eyebrow": "Who It's For",
+    "title": "Built for every link in the chain",
+    "items": [
+      {
+        "title": "Farmers",
+        "description": "Manage your harvest, track sales, and connect directly with buyers — eliminating middlemen."
+      },
+      {
+        "title": "Warehouse Managers",
+        "description": "Optimize storage, automate inventory tracking, and ensure regulatory compliance with ease."
+      },
+      {
+        "title": "Distributors & Cooperatives",
+        "description": "Coordinate logistics, manage multiple suppliers, and maintain full supply chain visibility."
+      },
+      {
+        "title": "Buyers & Clients",
+        "description": "Source products with confidence through verified traceability and transparent quality data."
+      }
+    ]
+  },
+  "platform": {
+    "eyebrow": "Platform Preview",
+    "title": "Powerful yet intuitive",
+    "subtitle": "Clean data visualization and enterprise-grade tools — designed for teams who move fast.",
+    "imageAlt": "Granaria platform dashboard showing inventory management and analytics"
+  },
+  "trust": {
+    "title": "Built on trust and transparency",
+    "items": [
+      { "title": "Complete Traceability", "description": "Track every product from origin to delivery" },
+      { "title": "FIFO & Lot Management", "description": "Smart inventory rotation and lot tracking" },
+      { "title": "Regulatory Compliance", "description": "Meet industry standards effortlessly" },
+      { "title": "Supply Chain Transparency", "description": "Full visibility for all stakeholders" }
+    ]
+  },
+  "cta": {
+    "title": "Ready to modernize your agricultural operations?",
+    "subtitle": "Join leading agricultural businesses already using Granaria to streamline their supply chain.",
+    "emailPlaceholder": "Enter your work email",
+    "getStarted": "Get Started"
+  },
+  "footer": {
+    "features": "Features",
+    "solutions": "Solutions",
+    "platform": "Platform",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "copyright": "© 2026 Granaria. All rights reserved."
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "header": {
+    "nav": {
+      "features": "Fonctionnalités",
+      "solutions": "Solutions",
+      "platform": "Plateforme",
+      "pricing": "Tarifs"
+    },
+    "signIn": "Connexion",
+    "requestDemo": "Demander une démo",
+    "logoAlt": "Logo Granaria"
+  },
+  "hero": {
+    "badge": "Conçu pour les entreprises agricoles",
+    "title": "La plateforme complète pour la gestion de la chaîne d'approvisionnement agricole",
+    "subtitle": "Centralisez le contrôle, assurez une traçabilité totale et maximisez l'efficacité — du producteur à l'acheteur. Une seule plateforme pour gérer entrepôts, produits et ventes.",
+    "requestDemo": "Demander une démo",
+    "seeHowItWorks": "Voir comment ça marche",
+    "heroImageAlt": "Entrepôt agricole moderne"
+  },
+  "problem": {
+    "title": "Les chaînes d'approvisionnement agricoles sont complexes.",
+    "titleHighlight": "Granaria les simplifie.",
+    "challenge": "Le défi",
+    "granariaWay": "La solution Granaria",
+    "problems": [
+      "Opérations fragmentées entre plusieurs outils",
+      "Manque de visibilité sur les stocks et la logistique",
+      "Processus manuels et sujets aux erreurs",
+      "Aucune traçabilité de bout en bout"
+    ],
+    "solutions": [
+      "Plateforme unifiée pour toutes les opérations",
+      "Visibilité en temps réel sur toute la chaîne",
+      "Workflows automatisés et alertes intelligentes",
+      "Traçabilité complète de l'origine à la livraison"
+    ]
+  },
+  "features": {
+    "eyebrow": "Plateforme principale",
+    "title": "Tout ce dont vous avez besoin pour gérer votre chaîne d'approvisionnement",
+    "subtitle": "Des opérations d'entrepôt aux transactions acheteurs — le tout sur une seule plateforme.",
+    "items": [
+      {
+        "title": "Entrepôt et gestion des stocks",
+        "description": "Suivez les stocks dans plusieurs entrepôts avec des niveaux en temps réel, gestion FIFO et alertes automatiques."
+      },
+      {
+        "title": "Traçabilité des produits",
+        "description": "Traçabilité complète au niveau des lots de l'origine à la livraison avec codes QR et documentation numérique."
+      },
+      {
+        "title": "Marketplace intégrée",
+        "description": "Connectez acheteurs et vendeurs sur une plateforme unifiée avec tarification transparente et transactions fluides."
+      },
+      {
+        "title": "Workflows et IA automatisés",
+        "description": "Réduisez le travail manuel grâce à l'automatisation intelligente des commandes, contrôles qualité et logistique."
+      },
+      {
+        "title": "Analytique en temps réel",
+        "description": "Tableaux de bord actionnables pour stocks, ventes et performance de la chaîne avec insights prédictifs."
+      },
+      {
+        "title": "Paiements sécurisés",
+        "description": "Traitement des paiements intégré avec séquestre, multi-devises et traçabilité financière complète."
+      }
+    ]
+  },
+  "audience": {
+    "eyebrow": "Pour qui",
+    "title": "Conçu pour chaque maillon de la chaîne",
+    "items": [
+      {
+        "title": "Agriculteurs",
+        "description": "Gérez vos récoltes, suivez les ventes et connectez-vous directement aux acheteurs — sans intermédiaires."
+      },
+      {
+        "title": "Responsables d'entrepôts",
+        "description": "Optimisez le stockage, automatisez le suivi des stocks et assurez la conformité réglementaire en toute simplicité."
+      },
+      {
+        "title": "Distributeurs et coopératives",
+        "description": "Coordonnez la logistique, gérez plusieurs fournisseurs et maintenez une visibilité complète sur la chaîne."
+      },
+      {
+        "title": "Acheteurs et clients",
+        "description": "Approvisionnez-vous en toute confiance grâce à une traçabilité vérifiée et des données qualité transparentes."
+      }
+    ]
+  },
+  "platform": {
+    "eyebrow": "Aperçu de la plateforme",
+    "title": "Puissant et intuitif",
+    "subtitle": "Visualisation des données claire et outils de niveau entreprise — conçus pour les équipes qui vont vite.",
+    "imageAlt": "Tableau de bord Granaria : gestion des stocks et analytique"
+  },
+  "trust": {
+    "title": "Bâti sur la confiance et la transparence",
+    "items": [
+      { "title": "Traçabilité complète", "description": "Suivez chaque produit de l'origine à la livraison" },
+      { "title": "FIFO et gestion des lots", "description": "Rotation intelligente des stocks et suivi des lots" },
+      { "title": "Conformité réglementaire", "description": "Répondez aux normes du secteur sans effort" },
+      { "title": "Transparence de la chaîne", "description": "Visibilité complète pour toutes les parties prenantes" }
+    ]
+  },
+  "cta": {
+    "title": "Prêt à moderniser vos opérations agricoles ?",
+    "subtitle": "Rejoignez les entreprises agricoles qui utilisent déjà Granaria pour optimiser leur chaîne d'approvisionnement.",
+    "emailPlaceholder": "Votre email professionnel",
+    "getStarted": "Commencer"
+  },
+  "footer": {
+    "features": "Fonctionnalités",
+    "solutions": "Solutions",
+    "platform": "Plateforme",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "copyright": "© 2026 Granaria. Tous droits réservés."
+  }
+}
