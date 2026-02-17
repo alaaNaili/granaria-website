@@ -23,9 +23,9 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <span className="inline-block px-4 py-1.5 rounded-full bg-accent/20 text-primary-foreground text-sm font-medium mb-6 border border-accent/30">
+            {/* <span className="inline-block px-4 py-1.5 rounded-full bg-accent/20 text-primary-foreground text-sm font-medium mb-6 border border-accent/30">
               {t("hero.badge")}
-            </span>
+            </span> */}
           </motion.div>
 
           <motion.h1

@@ -6,15 +6,16 @@
       "platform": "Plateforme",
       "pricing": "Tarifs"
     },
-    "signIn": "Connexion",
-    "requestDemo": "Demander une démo",
+    "signIn": "Contact",
+    "requestDemo": "Démarrer Maintenant",
     "logoAlt": "Logo Granaria"
   },
   "hero": {
     "badge": "Conçu pour les entreprises agricoles",
     "title": "La plateforme complète pour la gestion de la chaîne d'approvisionnement agricole",
     "subtitle": "Centralisez le contrôle, assurez une traçabilité totale et maximisez l'efficacité — du producteur à l'acheteur. Une seule plateforme pour gérer entrepôts, produits et ventes.",
-    "requestDemo": "Demander une démo",
+    "requestDemo": "Démarrer Maintenant",
+    "requestDemo1": "Contact",
     "seeHowItWorks": "Voir comment ça marche",
     "heroImageAlt": "Entrepôt agricole moderne"
   },
@@ -105,10 +106,10 @@
     ]
   },
   "cta": {
-    "title": "Prêt à moderniser vos opérations agricoles ?",
-    "subtitle": "Rejoignez les entreprises agricoles qui utilisent déjà Granaria pour optimiser leur chaîne d'approvisionnement.",
+    "title": "Êtes-vous une institution ou un grand entrepôt ?",
+    "subtitle": "Contactez-nous pour obtenir un devis personnalisé et découvrir comment Granaria peut moderniser et optimiser vos opérations agricoles.",
     "emailPlaceholder": "Votre email professionnel",
-    "getStarted": "Commencer"
+    "getStarted": "Contacter notre équipe"
   },
   "footer": {
     "features": "Fonctionnalités",

@@ -26,14 +26,14 @@ const CTASection = () => {
             {t("cta.subtitle")}
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-            <Input
+          <div className="flex flex-col justify-center sm:flex-row gap-3 max-w-md mx-auto">
+            {/* <Input
               type="email"
               placeholder={t("cta.emailPlaceholder")}
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="bg-primary-foreground/10 border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/50 focus-visible:ring-accent"
-            />
+            /> */}
             <Button className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold shrink-0">
               {t("cta.getStarted")}
               <ArrowRight className="ml-2 h-4 w-4" />

@@ -6,15 +6,16 @@
       "platform": "Platform",
       "pricing": "Pricing"
     },
-    "signIn": "Sign In",
-    "requestDemo": "Request Demo",
+    "signIn": "Contact",
+    "requestDemo": "Get Started",
     "logoAlt": "Granaria logo"
   },
   "hero": {
     "badge": "Built for Agricultural Enterprises",
     "title": "The Complete Platform for Agricultural Supply Chain Management",
     "subtitle": "Centralize control, ensure full traceability, and maximize efficiency — from farm to buyer. One platform to manage warehouses, products, and sales across your entire operation.",
-    "requestDemo": "Request Demo",
+    "requestDemo": "Get Started",
+    "requestDemo1": "Contact",
     "seeHowItWorks": "See How It Works",
     "heroImageAlt": "Modern agricultural warehouse"
   },
@@ -105,10 +106,10 @@
     ]
   },
   "cta": {
-    "title": "Ready to modernize your agricultural operations?",
-    "subtitle": "Join leading agricultural businesses already using Granaria to streamline their supply chain.",
+    "title": "Are you an institution or a large warehouse?",
+    "subtitle": "Contact us to request a personalized quote and discover how Granaria can modernize and optimize your agricultural operations.",
     "emailPlaceholder": "Enter your work email",
-    "getStarted": "Get Started"
+    "getStarted": "Contact Our Team"
   },
   "footer": {
     "features": "Features",
