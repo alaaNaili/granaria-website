@@ -3,11 +3,11 @@
     "nav": {
       "features": "Features",
       "solutions": "Solutions",
+      "blog": "News & Blog",
       "platform": "Platform",
       "pricing": "Pricing"
     },
-    "signIn": "Contact",
-    "requestDemo": "Get Started",
+    "signIn": "Sign In",
     "logoAlt": "Granaria logo"
   },
   "hero": {
@@ -17,7 +17,8 @@
     "requestDemo": "Get Started",
     "requestDemo1": "Contact",
     "seeHowItWorks": "See How It Works",
-    "heroImageAlt": "Modern agricultural warehouse"
+    "heroImageAlt": "Modern agricultural warehouse",
+    "goToPlatform": "Go to Platform"
   },
   "problem": {
     "title": "Agricultural supply chains are complex.",
@@ -99,10 +100,22 @@
   "trust": {
     "title": "Built on trust and transparency",
     "items": [
-      { "title": "Complete Traceability", "description": "Track every product from origin to delivery" },
-      { "title": "FIFO & Lot Management", "description": "Smart inventory rotation and lot tracking" },
-      { "title": "Regulatory Compliance", "description": "Meet industry standards effortlessly" },
-      { "title": "Supply Chain Transparency", "description": "Full visibility for all stakeholders" }
+      {
+        "title": "Complete Traceability",
+        "description": "Track every product from origin to delivery"
+      },
+      {
+        "title": "FIFO & Lot Management",
+        "description": "Smart inventory rotation and lot tracking"
+      },
+      {
+        "title": "Regulatory Compliance",
+        "description": "Meet industry standards effortlessly"
+      },
+      {
+        "title": "Supply Chain Transparency",
+        "description": "Full visibility for all stakeholders"
+      }
     ]
   },
   "cta": {

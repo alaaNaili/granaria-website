@@ -34,10 +34,16 @@ const CTASection = () => {
               onChange={(e) => setEmail(e.target.value)}
               className="bg-primary-foreground/10 border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/50 focus-visible:ring-accent"
             /> */}
-            <Button className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold shrink-0">
-              {t("cta.getStarted")}
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
+            <a
+              href="https://platform.granaria.tech/enterprise-inquiry"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold shrink-0">
+                {t("cta.getStarted")}
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </a>
           </div>
         </motion.div>
       </div>

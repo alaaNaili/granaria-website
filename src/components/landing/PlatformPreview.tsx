@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import dashboardMockup from "@/assets/dashboard-mockup.jpg";
+import dashboardMockup from "@/assets/dashboard-mockup.jpeg";
 
 const PlatformPreview = () => {
   const { t } = useTranslation();

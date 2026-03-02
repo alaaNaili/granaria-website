@@ -11,7 +11,11 @@ const HeroSection = () => {
     <section className="relative pt-16 overflow-hidden">
       {/* Background image with overlay */}
       <div className="absolute inset-0">
-        <img src={heroImage} alt={t("hero.heroImageAlt")} className="w-full h-full object-cover" />
+        <img
+          src={heroImage}
+          alt={t("hero.heroImageAlt")}
+          className="w-full h-full object-cover"
+        />
         <div className="absolute inset-0 bg-hero-gradient opacity-80" />
         <div className="absolute inset-0 bg-gradient-to-t from-background/10 to-transparent" />
       </div>
@@ -52,18 +56,40 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.3 }}
           >
-            <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold text-base px-8">
-              {t("hero.requestDemo")}
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-            <a
-              href="#solutions"
-              className="inline-flex items-center justify-center border border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-semibold text-base px-8 py-3 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
-              style={{ minHeight: '3rem' }}
+            <Button
+              asChild
+              size="lg"
+              className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold text-base px-8"
             >
-              <Play className="mr-2 h-5 w-5" />
-              {t("hero.seeHowItWorks")}
-            </a>
+              <a
+                href="https://platform.granaria.tech"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {t("hero.goToPlatform")}
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </a>
+            </Button>
+
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="inline-flex items-center justify-center
+           h-11 px-8
+           border border-primary-foreground/30
+           bg-transparent
+           text-primary-foreground
+           hover:bg-primary-foreground/10
+           font-semibold text-base
+           rounded-lg transition-colors
+           focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+            >
+              <a href="#solutions">
+                <Play className="mr-2 h-5 w-5" />
+                {t("hero.seeHowItWorks")}
+              </a>
+            </Button>
           </motion.div>
         </div>
       </div>

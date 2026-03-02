@@ -3,11 +3,11 @@
     "nav": {
       "features": "Fonctionnalités",
       "solutions": "Solutions",
+      "blog": "Actualités & Blogue",
       "platform": "Plateforme",
       "pricing": "Tarifs"
     },
-    "signIn": "Contact",
-    "requestDemo": "Démarrer Maintenant",
+    "signIn": "Connexion",
     "logoAlt": "Logo Granaria"
   },
   "hero": {
@@ -17,7 +17,8 @@
     "requestDemo": "Démarrer Maintenant",
     "requestDemo1": "Contact",
     "seeHowItWorks": "Voir comment ça marche",
-    "heroImageAlt": "Entrepôt agricole moderne"
+    "heroImageAlt": "Entrepôt agricole moderne",
+    "goToPlatform": "Accéder à la plateforme"
   },
   "problem": {
     "title": "Les chaînes d'approvisionnement agricoles sont complexes.",
@@ -99,10 +100,22 @@
   "trust": {
     "title": "Bâti sur la confiance et la transparence",
     "items": [
-      { "title": "Traçabilité complète", "description": "Suivez chaque produit de l'origine à la livraison" },
-      { "title": "FIFO et gestion des lots", "description": "Rotation intelligente des stocks et suivi des lots" },
-      { "title": "Conformité réglementaire", "description": "Répondez aux normes du secteur sans effort" },
-      { "title": "Transparence de la chaîne", "description": "Visibilité complète pour toutes les parties prenantes" }
+      {
+        "title": "Traçabilité complète",
+        "description": "Suivez chaque produit de l'origine à la livraison"
+      },
+      {
+        "title": "FIFO et gestion des lots",
+        "description": "Rotation intelligente des stocks et suivi des lots"
+      },
+      {
+        "title": "Conformité réglementaire",
+        "description": "Répondez aux normes du secteur sans effort"
+      },
+      {
+        "title": "Transparence de la chaîne",
+        "description": "Visibilité complète pour toutes les parties prenantes"
+      }
     ]
   },
   "cta": {
