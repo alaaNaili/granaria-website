@@ -122,7 +122,22 @@
     "title": "Êtes-vous une institution ou un grand entrepôt ?",
     "subtitle": "Contactez-nous pour obtenir un devis personnalisé et découvrir comment Granaria peut moderniser et optimiser vos opérations agricoles.",
     "emailPlaceholder": "Votre email professionnel",
-    "getStarted": "Contacter notre équipe"
+    "getStarted": "Contacter notre équipe",
+    "selectProfile": "Je suis..."
+  },
+  "enterprise": {
+    "formA": { "groupLabel": "Secteur privé" },
+    "formB": { "groupLabel": "Secteur public" },
+    "profiles": {
+      "distributor": "Distributeur",
+      "wholesaler": "Grossiste",
+      "cooperative": "Coopérative",
+      "processor": "Transformateur de produits agricoles",
+      "bigTrader": "Gros commerçant",
+      "storageCompany": "Entreprise de stockage alimentaire",
+      "publicAgency": "Agence publique",
+      "ministry": "Ministère / Institution gouvernementale"
+    }
   },
   "footer": {
     "features": "Fonctionnalités",

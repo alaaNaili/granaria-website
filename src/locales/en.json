@@ -122,7 +122,22 @@
     "title": "Are you an institution or a large warehouse?",
     "subtitle": "Contact us to request a personalized quote and discover how Granaria can modernize and optimize your agricultural operations.",
     "emailPlaceholder": "Enter your work email",
-    "getStarted": "Contact Our Team"
+    "getStarted": "Contact Our Team",
+    "selectProfile": "I am..."
+  },
+  "enterprise": {
+    "formA": { "groupLabel": "Private sector" },
+    "formB": { "groupLabel": "Public sector" },
+    "profiles": {
+      "distributor": "Distributor",
+      "wholesaler": "Wholesaler",
+      "cooperative": "Cooperative",
+      "processor": "Agricultural products processor",
+      "bigTrader": "Large trader",
+      "storageCompany": "Food storage company",
+      "publicAgency": "Public agency",
+      "ministry": "Ministry / Government institution"
+    }
   },
   "footer": {
     "features": "Features",
