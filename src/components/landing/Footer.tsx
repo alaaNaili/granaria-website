@@ -4,6 +4,21 @@ import { useNavigate } from "react-router-dom";
 const Footer = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
+  const goToSection = (sectionId: string) => {
+    const el = document.getElementById(sectionId);
+    if (el) {
+      // Already on the page — just scroll smoothly
+      el.scrollIntoView({ behavior: "smooth" });
+    } else {
+      // On a different page — navigate then scroll after mount
+      navigate("/");
+      setTimeout(() => {
+        document
+          .getElementById(sectionId)
+          ?.scrollIntoView({ behavior: "smooth" });
+      }, 300); // 300ms lets the new page render before scrolling
+    }
+  };
   return (
     <footer className="border-t border-border py-4 bg-background">
       <div className="container mx-auto px-4">
@@ -20,18 +35,18 @@ const Footer = () => {
           </div>
 
           <nav className="flex flex-wrap items-center gap-6 text-sm text-muted-foreground">
-            <a
-              href="#features"
+            <button
+              onClick={() => goToSection("features")}
               className="hover:text-foreground transition-colors"
             >
               {t("footer.features")}
-            </a>
-            <a
-              href="#solutions"
+            </button>
+            <button
+              onClick={() => goToSection("solutions")}
               className="hover:text-foreground transition-colors"
             >
               {t("footer.solutions")}
-            </a>
+            </button>
             <button
               onClick={() =>
                 window.open(
