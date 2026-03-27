@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import GranariaBlog from "./pages/Blog";
 import GranariaBlogPost from "./components/Blogpost";
+import GuidePage from "./pages/GuidePage";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +21,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="*" element={<NotFound />} />
           <Route path="/blog" element={<GranariaBlog />} />
+          <Route path="/guide" element={<GuidePage />} />
           <Route path="/blog/:slug" element={<GranariaBlogPost />} />
         </Routes>
       </BrowserRouter>

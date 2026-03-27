@@ -35,12 +35,12 @@ const Footer = () => {
           </div>
 
           <nav className="flex flex-wrap items-center gap-6 text-sm text-muted-foreground">
-            <button
+            {/* <button
               onClick={() => goToSection("features")}
               className="hover:text-foreground transition-colors"
             >
               {t("footer.features")}
-            </button>
+            </button> */}
             <button
               onClick={() => goToSection("solutions")}
               className="hover:text-foreground transition-colors"
@@ -58,6 +58,18 @@ const Footer = () => {
               className="hover:text-foreground transition-colors"
             >
               {t("footer.platform")}
+            </button>
+            <button
+              onClick={() => navigate("/blog")}
+              className="hover:text-foreground transition-colors"
+            >
+              {t("footer.blog")}
+            </button>
+            <button
+              onClick={() => navigate("/guide")}
+              className="hover:text-foreground transition-colors"
+            >
+              {t("footer.guide")}
             </button>
             <button
               onClick={() =>

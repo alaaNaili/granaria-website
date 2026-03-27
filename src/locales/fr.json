@@ -5,7 +5,8 @@
       "solutions": "Solutions",
       "blog": "Actualités & Blogue",
       "platform": "Plateforme",
-      "pricing": "Tarifs"
+      "pricing": "Tarifs",
+      "guide": "Guide"
     },
     "signIn": "Connexion",
     "logoAlt": "Logo Granaria"
@@ -139,12 +140,311 @@
       "ministry": "Ministère / Institution gouvernementale"
     }
   },
+  "guide": {
+    "hero": {
+      "eyebrow": "Documentation",
+      "title": "Guide de la plateforme",
+      "subtitle": "Explorez toutes les fonctionnalités de Granaria selon votre rôle. Sélectionnez une section dans le menu ou filtrez par profil pour accéder aux guides vidéo."
+    },
+    "nav": {
+      "generalFeatures": "Fonctionnalités générales",
+      "institutionDashboard": "Tableau de bord institutionnel",
+      "filterByRole": "Filtrer par rôle",
+      "menu": "Navigation",
+      "navigation": "Navigation"
+    },
+    "search": {
+      "placeholder": "Rechercher une fonctionnalité…",
+      "noResults": "Aucune fonctionnalité trouvée pour ces critères.",
+      "clearFilters": "Effacer les filtres"
+    },
+    "sections": {
+      "institutionDivider": "Espace institutionnel",
+      "platform-access": {
+        "title": "Accès à la plateforme",
+        "description": "Connexion et création de compte pour les différents profils utilisateurs."
+      },
+      "user-management": {
+        "title": "Gestion des utilisateurs",
+        "description": "Inviter, ajouter et gérer les acteurs agricoles, employés et clients."
+      },
+      "warehouse-management": {
+        "title": "Gestion des entrepôts",
+        "description": "Créer des entrepôts, établir des contrats de location avec des producteurs."
+      },
+      "institution-linking": {
+        "title": "Liaison institution–entrepôt",
+        "description": "Envoyer, accepter et révoquer des demandes de liaison entre entrepôts et institutions."
+      },
+      "products-stock": {
+        "title": "Produits & stocks",
+        "description": "Créer des produits, gérer les stocks, les imports en masse et les commandes."
+      },
+      "reports": {
+        "title": "Rapports",
+        "description": "Générer des rapports produits et de stocks en PDF ou Excel."
+      },
+      "public-features": {
+        "title": "Fonctionnalités publiques",
+        "description": "Accès public au blog et demande de tarification personnalisée pour les entreprises."
+      },
+      "admin-shared": {
+        "title": "Tableau de bord partagé",
+        "description": "Fonctionnalités communes à toutes les institutions : carte, alertes, mouvements de stocks et rapports."
+      },
+      "farmer-portal": {
+        "title": "Espace Acteur Agricole",
+        "description": "Fonctionnalités dédiées aux acteurs agricoles : contrats, inventaire, ventes, commandes, traçabilité et rapports."
+      },
+      "customer-portal": {
+        "title": "Espace Client",
+        "description": "Navigation dans le catalogue produits, achat en ligne et suivi des commandes."
+      }
+    },
+    "institutionSections": {
+      "orsre": {
+        "title": "Tableau de bord ORSRE",
+        "description": "Détails des lots par entrepôt et génération de récépissés d'entrepôt."
+      },
+      "anida": {
+        "title": "Tableau de bord ANIDA",
+        "description": "Analyse des producteurs, performances agricoles, étiquettes produits par entrepôt."
+      },
+      "semig": {
+        "title": "Tableau de bord SEMIG",
+        "description": "Suivi des flux d'entrées/sorties et de la saturation des entrepôts."
+      }
+    },
+    "roles": {
+      "owner": "Propriétaire",
+      "employee": "Employé",
+      "farmer": "Acteur agricole",
+      "customer": "Client",
+      "admin": "Institution",
+      "orsre": "ORSRE",
+      "anida": "ANIDA",
+      "semig": "SEMIG",
+      "public": "Public"
+    },
+    "notes": {
+      "employee-permission": "L'employé doit disposer de la permission accordée par le propriétaire.",
+      "generate-permission": "La génération de la page est réservée au propriétaire ou à un employé autorisé. La consultation est publique."
+    },
+    "features": {
+      "access-platform-user": {
+        "title": "Accès à la plateforme (utilisateurs)",
+        "description": "Les propriétaires, employés, acteurs agricoles et clients peuvent se connecter à la plateforme depuis le portail principal."
+      },
+      "access-platform-agence": {
+        "title": "Accès à la plateforme (institutions)",
+        "description": "Les institutions et agences accèdent à la plateforme via un portail dédié avec authentification spécifique."
+      },
+      "create-account": {
+        "title": "Créer un compte",
+        "description": "Le propriétaire d'entrepôt peut créer un compte sur la plateforme pour commencer à gérer ses entrepôts et ses acteurs."
+      },
+      "invite-farmer": {
+        "title": "Inviter un acteur agricole",
+        "description": "Le propriétaire peut envoyer une invitation par email à un acteur agricole (agriculteur, commerçant, coopérative, distributeur ou transformateur) pour rejoindre la plateforme."
+      },
+      "invite-employee": {
+        "title": "Inviter un employé",
+        "description": "Le propriétaire peut inviter un employé à rejoindre son espace sur la plateforme via une invitation email."
+      },
+      "invite-customer": {
+        "title": "Inviter un client",
+        "description": "Le propriétaire peut envoyer une invitation à un client pour lui permettre d'accéder au portail client."
+      },
+      "add-employee": {
+        "title": "Ajouter un employé",
+        "description": "Le propriétaire peut créer directement un compte employé et définir ses permissions d'accès aux différentes fonctionnalités."
+      },
+      "add-farmer": {
+        "title": "Ajouter un acteur agricole",
+        "description": "Le propriétaire ou un employé autorisé peut ajouter manuellement un acteur agricole (agriculteur, commerçant, coopérative, distributeur ou transformateur) à la plateforme."
+      },
+      "add-customer": {
+        "title": "Ajouter un client",
+        "description": "Le propriétaire, un employé autorisé ou le client lui-même peuvent créer un compte client sur la plateforme."
+      },
+      "add-warehouse": {
+        "title": "Ajouter un entrepôt",
+        "description": "Le propriétaire peut enregistrer un nouvel entrepôt avec ses informations détaillées : localisation, capacité, catégories de produits, etc."
+      },
+      "create-rental-contract-existing-farmer": {
+        "title": "Créer un contrat de location (acteur existant)",
+        "description": "Créer un contrat de location d'espace de stockage pour un acteur agricole déjà enregistré sur la plateforme."
+      },
+      "create-rental-contract-new-farmer": {
+        "title": "Créer un contrat de location (nouvel acteur)",
+        "description": "Créer simultanément un profil d'acteur agricole et un contrat de location de stockage en une seule procédure."
+      },
+      "send-link-request-owner": {
+        "title": "Envoyer une demande de liaison (propriétaire)",
+        "description": "Le propriétaire d'un entrepôt peut soumettre une demande de liaison à une institution pour que celle-ci puisse accéder aux données de ses entrepôts."
+      },
+      "send-link-request-admin": {
+        "title": "Envoyer une demande de liaison (institution)",
+        "description": "Une institution peut initier une demande de liaison vers un entrepôt pour en surveiller les données."
+      },
+      "accept-link-request-admin": {
+        "title": "Accepter une demande de liaison",
+        "description": "Une institution reçoit et accepte une demande de liaison envoyée par un propriétaire d'entrepôt."
+      },
+      "remove-link-admin": {
+        "title": "Révoquer une liaison",
+        "description": "Une institution peut mettre fin à une liaison établie avec un entrepôt et retirer l'accès aux données correspondantes."
+      },
+      "create-product": {
+        "title": "Créer un produit",
+        "description": "Créer une fiche produit avec toutes ses caractéristiques : nom, catégorie, variété, prix, unité, traçabilité FIFO, etc."
+      },
+      "view-public-product-page": {
+        "title": "Voir la page produit publique",
+        "description": "Générer et partager une page produit publique accessible à tous, avec les informations de disponibilité et de contact."
+      },
+      "mass-import-products": {
+        "title": "Import en masse de produits",
+        "description": "Importer plusieurs produits simultanément depuis un fichier CSV ou Excel avec validation des données et rapport d'erreurs localisé."
+      },
+      "add-stock": {
+        "title": "Ajouter du stock",
+        "description": "Enregistrer une entrée de stock pour un produit existant dans un entrepôt, avec gestion automatique de l'allocation FIFO."
+      },
+      "manage-order-status": {
+        "title": "Gérer le statut des commandes",
+        "description": "Suivre et mettre à jour le statut des commandes clients (en attente, confirmée, expédiée, livrée, annulée)."
+      },
+      "generate-products-report": {
+        "title": "Générer un rapport produits",
+        "description": "Exporter un rapport complet des produits en stock au format PDF ou Excel avec filtres par période, catégorie ou entrepôt."
+      },
+      "generate-stock-report": {
+        "title": "Générer un rapport de stock",
+        "description": "Produire un rapport détaillé des mouvements de stock (entrées, sorties, soldes) pour une période sélectionnée."
+      },
+      "generate-product-report": {
+        "title": "Générer un rapport par produit",
+        "description": "Générer un rapport ciblé sur un produit spécifique incluant son historique de mouvements, ses transactions et ses données de traçabilité."
+      },
+      "visit-blog": {
+        "title": "Consulter le blog",
+        "description": "Le blog de Granaria est accessible publiquement. Il publie des actualités, des guides et des analyses sur l'agriculture et la gestion des entrepôts."
+      },
+      "get-custom-price-for-enterprises": {
+        "title": "Demander un tarif entreprise",
+        "description": "Les institutions et entreprises peuvent soumettre un formulaire de demande pour obtenir une offre tarifaire personnalisée adaptée à leurs besoins."
+      },
+      "view-warehouse-details-admin": {
+        "title": "Voir les détails d'un entrepôt",
+        "description": "Accéder à la fiche complète d'un entrepôt lié : capacité, taux d'occupation, produits stockés, contrats en cours et historique d'activité."
+      },
+      "warehouses-map-view-admin": {
+        "title": "Vue cartographique des entrepôts",
+        "description": "Visualiser sur une carte interactive l'ensemble des entrepôts liés à l'institution, avec indication du taux d'occupation en temps réel."
+      },
+      "filter-warehouses-by-region-admin": {
+        "title": "Filtrer les entrepôts par région",
+        "description": "Sur la vue cartographique, filtrer les entrepôts affichés selon leur région géographique pour une analyse territoriale."
+      },
+      "filter-warehouses-by-product-categories-admin": {
+        "title": "Filtrer par catégories de produits",
+        "description": "Sur la vue cartographique, filtrer les entrepôts selon les catégories de produits qu'ils stockent (céréales, légumineuses, etc.)."
+      },
+      "view-stock-and-products-movement-admin": {
+        "title": "Voir les mouvements de stocks et produits",
+        "description": "Consulter l'historique complet des entrées et sorties de stocks pour tous les entrepôts liés, avec filtres par date et par entrepôt."
+      },
+      "export-stock-and-products-movement-report-admin": {
+        "title": "Exporter le rapport des mouvements",
+        "description": "Télécharger un rapport des mouvements de stocks et produits au format PDF ou Excel pour archivage ou analyse externe."
+      },
+      "view-and-manage-alerts-admin": {
+        "title": "Gérer les alertes",
+        "description": "Consulter et gérer les alertes émises par le système (ex. : stock en dessous du seuil) ou manuellement par les entrepôts. Marquer les alertes comme traitées."
+      },
+      "generate-a-report-admin": {
+        "title": "Générer un rapport institutionnel",
+        "description": "Produire l'un des rapports suivants selon les besoins : Rapport d'Inventaire (PDF/Excel), Rapport des Mouvements de Stock (PDF/Excel), Rapport de Conformité (PDF/Excel), Résumé des Entrepôts (PDF/Excel), Rapport de Conformité SRE (Excel uniquement)."
+      },
+      "orsre-special-dashboard-overview": {
+        "title": "Vue d'ensemble du tableau de bord ORSRE",
+        "description": "Tableau de bord spécialisé pour l'ORSRE affichant les lots par entrepôt, les niveaux d'occupation et les données de traçabilité nécessaires à la délivrance des récépissés."
+      },
+      "orsre-warehouse-report": {
+        "title": "Générer un récépissé d'entrepôt",
+        "description": "L'ORSRE peut générer un récépissé d'entrepôt officiel pour certifier la détention de marchandises stockées dans un entrepôt homologué."
+      },
+      "anida-special-dashboard-overview": {
+        "title": "Vue d'ensemble du tableau de bord ANIDA",
+        "description": "Tableau de bord ANIDA présentant la répartition des producteurs par type, les performances par campagne, la production moyenne à l'hectare, les revenus moyens et une analyse démographique."
+      },
+      "anida-revenue-analysis-per-campaign": {
+        "title": "Analyse des revenus par campagne",
+        "description": "Analyser les revenus moyens par producteur et par campagne agricole, identifier les producteurs dépassant les seuils de revenu, et consulter le classement des 10 meilleures fermes vendeuses."
+      },
+      "anida-add-product-label": {
+        "title": "Ajouter une étiquette produit",
+        "description": "L'ANIDA peut attribuer une étiquette de qualité ou de certification à un entrepôt. Cette étiquette sera automatiquement appliquée à tous les produits stockés dans cet entrepôt."
+      },
+      "semig-special-dashboard-overview": {
+        "title": "Vue d'ensemble du tableau de bord SEMIG",
+        "description": "Tableau de bord SEMIG affichant les flux d'entrées et de sorties, les taux de saturation des entrepôts, les tendances de remplissage et les indicateurs logistiques clés."
+      },
+      "view-contracts-farmer": {
+        "title": "Voir mes contrats de location",
+        "description": "L'acteur agricole peut consulter l'ensemble de ses contrats de location actifs et passés, avec les détails de chaque espace loué, les dates et les conditions."
+      },
+      "add-client-farmer": {
+        "title": "Ajouter un client",
+        "description": "L'acteur agricole peut ajouter directement un client à son réseau pour faciliter les ventes directes depuis son espace."
+      },
+      "trace-product-by-qr-code-farmer": {
+        "title": "Tracer un produit par QR code",
+        "description": "Scanner un QR code pour accéder à la fiche de traçabilité complète d'un produit : origine, entrepôt, mouvements, lot FIFO et historique."
+      },
+      "download-product-excel-report-farmer": {
+        "title": "Télécharger un rapport produit (Excel)",
+        "description": "Exporter les données produits au format Excel pour analyse externe ou archivage comptable."
+      },
+      "download-product-pdf-report-farmer": {
+        "title": "Télécharger un rapport produit (PDF)",
+        "description": "Générer un rapport produit au format PDF, prêt à être partagé ou imprimé."
+      },
+      "view-inventory-farmer": {
+        "title": "Voir mon inventaire",
+        "description": "Consulter l'état de l'inventaire en temps réel : produits stockés, quantités disponibles, et lots en cours."
+      },
+      "view-sales-farmer": {
+        "title": "Voir mes ventes",
+        "description": "Accéder au tableau de bord des ventes avec les métriques de revenus, les produits vendus, les marges et les tendances."
+      },
+      "check-order-status-farmer": {
+        "title": "Suivre le statut de mes commandes",
+        "description": "L'acteur agricole peut suivre l'état de ses commandes en cours et passées : confirmées, expédiées, livrées ou annulées."
+      },
+      "browse-products-and-buy-customer": {
+        "title": "Parcourir les produits et acheter",
+        "description": "Le client accède au catalogue produits, consulte les fiches détaillées et passe une commande directement depuis la plateforme."
+      },
+      "view-order-status-customer": {
+        "title": "Suivre le statut de mes commandes",
+        "description": "Le client peut consulter l'état de ses commandes en temps réel et recevoir les mises à jour de statut."
+      }
+    },
+    "infoNotes": {
+      "emailCredentials": "Les utilisateurs invités ou ajoutés recevront un email contenant leurs identifiants de connexion.",
+      "stockThreshold": "Des alertes seront automatiquement envoyées si le stock d'un produit dépasse ou descend en dessous des seuils maximum et minimum définis lors de la création du produit."
+    }
+  },
   "footer": {
     "features": "Fonctionnalités",
     "solutions": "Solutions",
     "platform": "Plateforme",
     "privacy": "Confidentialité",
     "terms": "Conditions",
+    "guide": "Guide",
+    "blog": "Actualités & Blogue",
     "copyright": "© 2026 Granaria. Tous droits réservés."
   }
 }

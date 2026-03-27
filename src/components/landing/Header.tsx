@@ -10,11 +10,12 @@ import {
 } from "@/components/ui/dropdown-menu";
 
 const navKeys = [
-  "features",
+  // "features",
   "solutions",
   "platform",
   "pricing",
   "blog",
+  "guide",
 ] as const;
 const PLATFORM_URL = "https://platform.granaria.tech";
 const PRICING_URL = "https://platform.granaria.tech/pricing";
@@ -24,6 +25,8 @@ const getNavHref = (key: (typeof navKeys)[number]) => {
     return "/blog";
   } else if (key === "pricing") {
     return PRICING_URL;
+  } else if (key === "guide") {
+    return "/guide";
   } else {
     return `/#${key}`;
   }
@@ -83,9 +86,7 @@ const Header = () => {
             </DropdownMenuContent>
           </DropdownMenu>
           <a href={PLATFORM_URL} target="_blank" rel="noopener noreferrer">
-            <Button size="sm">
-              {t("header.signIn")}
-            </Button>
+            <Button size="sm">{t("header.signIn")}</Button>
           </a>
         </div>
 
