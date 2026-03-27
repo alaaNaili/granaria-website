@@ -430,6 +430,14 @@
       "view-order-status-customer": {
         "title": "Track My Order Status",
         "description": "The customer can check the real-time status of their orders and receive status updates."
+      },
+      "change-retention-rate-period-admin": {
+        "title": "Change Retention Rate Period",
+        "description": "Select a retention period (1, 2 or 5 years) to identify warehouses that have been active for at least that duration."
+      },
+      "customise-employment-goal-admin": {
+        "title": "Customise Employment Goal",
+        "description": "Set a custom employment goal for the dashboard. The default value is 100,000 but can be adjusted to match the institution's targets."
       }
     },
     "infoNotes": {

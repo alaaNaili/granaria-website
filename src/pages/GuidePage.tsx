@@ -415,6 +415,16 @@ const INSTITUTION_SECTIONS: InstitutionSection[] = [
         videoFile: "anida-add-product-label.mp4",
         roles: ["anida"],
       },
+      {
+        id: "change-retention-rate-period-admin",
+        videoFile: "change-retention-rate-period-admin.mp4",
+        roles: ["anida"],
+      },
+      {
+        id: "customise-employment-goal-admin",
+        videoFile: "customise-employment-goal-admin.mp4",
+        roles: ["anida"],
+      },
     ],
   },
   {

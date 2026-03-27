@@ -430,6 +430,14 @@
       "view-order-status-customer": {
         "title": "Suivre le statut de mes commandes",
         "description": "Le client peut consulter l'état de ses commandes en temps réel et recevoir les mises à jour de statut."
+      },
+      "change-retention-rate-period-admin": {
+        "title": "Changer la période de rétention",
+        "description": "Sélectionner une période de rétention (1, 2 ou 5 ans) pour identifier les entrepôts actifs depuis au moins cette durée."
+      },
+      "customise-employment-goal-admin": {
+        "title": "Personnaliser l'objectif d'emploi",
+        "description": "Définir un objectif d'emploi personnalisé pour le tableau de bord. La valeur par défaut est 100 000, mais elle peut être ajustée selon les cibles de l'institution."
       }
     },
     "infoNotes": {
